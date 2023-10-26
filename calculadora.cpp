@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <calculadora.h>
 
-int main() {
+
+void funcao () {
     char operacao;
     float num1, num2, resultado;
 
@@ -69,5 +72,4 @@ int main() {
 
     } while (1);  // Loop infinito
 
-    return 0;
 }
